@@ -1,0 +1,61 @@
+header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#verTodas {
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#mensajeRefrescar {
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    max-width: 400px;
+}
+
+.menuBusqueda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+}
+
+.menuBusqueda div {
+    display: flex;
+    flex-direction: column;
+}
+
+.estiloPeliculas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: lightgray;
+}
+
+.card img {
+    max-height: 481px;
+    height: auto;
+}
